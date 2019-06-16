@@ -16,9 +16,11 @@
   <!-- Remove unused projects -->
   <remove-project name="manifest" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <remove-project name="vendor_gzosp" />
 
   <!-- XENT repositories -->
   <project path="manifest" name="manifest" remote="xent" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk" remote="xent" />
+  <project path="vendor/gzosp" name="vendor_gzosp" remote="xent" />
 
 </manifest>
