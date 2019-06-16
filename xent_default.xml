@@ -16,11 +16,13 @@
   <!-- Remove unused projects -->
   <remove-project name="manifest" />
   <remove-project name="hardware_gzosp_interfaces" />
+  <remove-project name="device_gzosp_sepolicy" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="vendor_gzosp" />
 
   <!-- XENT repositories -->
   <project path="manifest" name="manifest" remote="xent" />
+  <project path="device/gzosp/sepolicy" name="device_gzosp_sepolicy" remote="xent" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk" remote="xent" />
   <project path="vendor/gzosp" name="vendor_gzosp" remote="xent" />
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="xent" />
