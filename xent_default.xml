@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="xent"
+           fetch="https://github.com/XENT-Project"
+           revision="refs/heads/9.0" />
+
+  <remote  name="lineage"
+           fetch="https://github.com/LineageOS"
+           review="review.lineageos.org"
+           revision="refs/heads/lineage-16.0" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <!-- Remove unused projects -->
+  <remove-project name="manifest" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+
+  <!-- XENT repositories -->
+  <project path="manifest" name="manifest" remote="xent" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk" remote="xent" />
+
+</manifest>
