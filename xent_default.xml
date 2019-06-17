@@ -19,6 +19,12 @@
   <remove-project name="device_gzosp_sepolicy" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="vendor_gzosp" />
+  <remove-project name="hardware_qcom_audio" />
+  <remove-project name="hardware_qcom_bootctrl" />
+  <remove-project name="hardware_qcom_camera" />
+  <remove-project name="hardware_qcom_display" />
+  <remove-project name="hardware_qcom_gps" />
+  <remove-project name="hardware_qcom_media" />
 
   <!-- XENT repositories -->
   <project path="manifest" name="manifest" remote="xent" />
@@ -26,5 +32,13 @@
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk" remote="xent" />
   <project path="vendor/gzosp" name="vendor_gzosp" remote="xent" />
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="xent" />
+
+  <!-- Lineage repositories -->
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="lineage" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="lineage" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="lineage" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="lineage" />
 
 </manifest>
