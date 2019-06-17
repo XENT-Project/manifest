@@ -19,6 +19,7 @@
   <remove-project name="device_gzosp_sepolicy" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="vendor_gzosp" />
+  <remove-project name="hardware_broadcom_wlan" />
   <remove-project name="hardware_libhardware" />
   <remove-project name="hardware_libhardware_legacy" />
   <remove-project name="hardware_nxp_nfc" />
